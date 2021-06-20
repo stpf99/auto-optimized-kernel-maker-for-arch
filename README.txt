@@ -12,3 +12,5 @@ And time to time to refresh setup
 
 3
 ./refresh_configs.sh
+
+Files may need revision by user to correct paths as needed...
