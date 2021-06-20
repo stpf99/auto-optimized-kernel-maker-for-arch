@@ -1,3 +1,5 @@
+ATTENTION IT iS ONLy WIP/MY SKELETON/NOT TESTED
+
 As User run on first installation 1 and 2 step
 1.
 chmod +x *.sh
