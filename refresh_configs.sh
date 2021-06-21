@@ -1,4 +1,6 @@
 #!/bin/bash
+mkdir /mnt/sdb1/archive/
+mv /mnt/sdb1/kernels/linux-tkg/*.zst /mnt/sdb1/archive/ 
 sudo  rm -r /mnt/sdb1/kernels/linux-tkg
 cd /mnt/sdb1/kernels/
 sudo pacman -Syu git
