@@ -7,7 +7,7 @@ if (( 0 <= $H && $H < 4 )); then
 	echo 'cat kernel_version'
 	./start_kernel_make.sh
 elif (( 3 <= $H && $H < 23 )); then
-	echo between 3AM and 0PM nothing to do now
+	echo between 3AM and 0PM nothing todo now
 else
 	echo nothing to do
 fi
