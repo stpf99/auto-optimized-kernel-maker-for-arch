@@ -1,7 +1,7 @@
 #!/bin/bash
 LOCAL_VER='cat kernel_version_local'
 VER='cat kernel_version'
-cd /home/kerneles/linux-tkg/
+cd /mnt/sdb1/kernels/linux-tkg/
 mv customization.cfg backup_customization.cfg
 echo 'grep -vwE "*.**"' backup_customization.cfg > kernel_version_local
 if $VER > $LOCAL_VER then
