@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo  rm -r /mnt/sdb1/kernels/linux-tkg
 cd /mnt/sdb1/kernels/
-pacman -Syu git
+sudo pacman -Syu git
 git clone https://github.com/Frogging-Family/linux-tkg.git
 echo "
 
