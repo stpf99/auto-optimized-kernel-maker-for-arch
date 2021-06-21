@@ -5,7 +5,8 @@ if (( 0 <= $H && $H < 4 )); then
         cd /mnt/sdb1/kernels/linux-tkg/
 	echo 'curl -s https://www.kernel.org | grep -A1 latest_link | tail -n1 | egrep -o '>[^<]+' | egrep -o '[^>]+'' > kernel_version
 	echo 'cat kernel_version'
-	./mnt/sdb1/kernels/start_kernel_make.sh
+	cd /mnt/sdb1/kernels/
+	./start_kernel_make.sh
 elif (( 3 <= $H && $H < 23 )); then
 	echo between 3AM and 0PM nothing todo now
 else
