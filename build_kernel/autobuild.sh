@@ -9,5 +9,5 @@ if (( 0 <= $H && $H < 4 )); then
 elif (( 3 <= $H && $H < 23 )); then
 	echo between 3AM and 0PM nothing todo now
 else
-	echo nothing to do
+	echo nothing todo
 fi
