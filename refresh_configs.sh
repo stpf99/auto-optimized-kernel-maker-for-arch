@@ -1,8 +1,8 @@
 #!/bin/bash
-mkdir /mnt/sdb1/archive/
-mv /mnt/sdb1/kernels/linux-tkg/*.zst /mnt/sdb1/archive/ 
-sudo  rm -r /mnt/sdb1/kernels/linux-tkg
-cd /mnt/sdb1/kernels/
+mkdir /home/$USER/archive/
+mv /home/$USER/kernels/linux-tkg/*.zst /home/$USER/archive/ 
+sudo  rm -r /home/$USER/kernels/linux-tkg
+cd /home/$USER/kernels/
 sudo pacman -Syu git
 git clone https://github.com/Frogging-Family/linux-tkg.git
 echo "
