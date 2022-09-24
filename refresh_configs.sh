@@ -7,7 +7,7 @@ sudo pacman -Syu git
 git clone https://github.com/Frogging-Family/linux-tkg.git
 echo "
 
-Edit default Options for your individual kernel customization in /home/kernels/linux-tkg/customization.cfg file. Answer to any Question and save."
+Edit default Options for your individual kernel customization in /home/$USER/kernels/linux-tkg/customization.cfg file. Answer to any Question and save."
 echo "
 
 Set autostart for your computer in Bios at 1 AM everyday"
