@@ -1,6 +1,6 @@
 [Unit]
 Description=this is service to enable build optimized kernel for ARCH Linux between hours when system starts at night between 0-3AM everyday from main rc point releases
 [Service]
-ExecStart=/bin/bash /home/kernels/autobuild.sh
+ExecStart=/bin/bash /home/$USER/kernels/autobuild.sh
 [Install]
 WantedBy=multi-user.targed
