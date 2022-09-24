@@ -3,9 +3,9 @@ sudo cp systemd/kernel_autobuild.service /etc/systemd/system
 sudo systemctl daemon-reload
 sudo systemctl enable kernel_autobuild.service
 sudo systemctl start kernel_autobuild.service
-mkdir /mnt/sdb1/kernels
-cp start_kernel_make.sh refresh_configs.sh build_kernel/autobuild.sh /mnt/sdb1/kernels/
-cd /mnt/sdb1/kernels/
+mkdir /home/$USER/kernels
+cp start_kernel_make.sh refresh_configs.sh build_kernel/autobuild.sh /home/$USER/kernels/
+cd /home/$USER/kernels/
 sudo pacman -Syu git
 git clone https://github.com/Frogging-Family/linux-tkg.git
 echo "
